@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Sign up form</title>
+</head>
+<body>
+   <div class="main-div">
+      <section class="left-side">    
+         <div class="top-side">
+             <img src="images/logo/odin-lined.png" alt="Logo-odin">
+             <p>ODIN</p>
+         </div>     
+       <footer class="botom-side">
+         Photo by <a href="#" class="first-link">Halie-West</a>on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" class="second-link">unsplash</a> 
+       </footer>
+    </section>
+    <section class="right-side">
+       <div class="main-text">
+          <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dream. Sign up now to get started.</h3>
+       </div>
+       <div class="second-text">
+          <h3>you know you want to</h3>
+       </div>
+ 
+       <div class="all-form">
+          <form action="#" method="post">
+             <div class="first-part">
+               <legend><h2>Let's do this </h2></legend>
+               <div class="forms">
+                  <div class="form-left-side">
+                     <label for="first-name">FIRST NAME</label> <br>
+                     <input type="text" name="first-name" id="first-name"> <br>
+         
+                     <label for="user-email">EMAIL</label> <br>
+                     <input type="email" name="email" id="user-email" required> <br>
+         
+                     <label for="user-password">PASSWORD</label> <br>
+                     <input type="password" name="password" id="user-password" required>
+                  </div>
+                  <div class="form-right-side">
+                     <label for="last-name">LAST NAME</label> <br>
+                     <input type="text" name="last-name" id="last-name"> <br>
+      
+                     <label for="user-number">PHONE NUMBER</label> <br>
+                     <input type="tel" name="tel" id="user-number" pattern="[\+]\[0-9]{3}:[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="+229 96 69 99 60" > <br>
+      
+                     <label for="check-password">CONFIRM PASSWORD</label> <br>
+                     <input type="password" name="password" id="check-password" required>
+      
+                  </div>
+               </div> 
+               
+             </div>
+             <div class="second-part"><button type="submit">Create Account</button></div>                   
+             
+          </form>        
+       </div>
+ 
+       <div class="third-text">Already have an account? <a href="#" class="third-link">log in</a> </div>
+    </section>
+   </div>
+  
+    
+</body>
+</html>
